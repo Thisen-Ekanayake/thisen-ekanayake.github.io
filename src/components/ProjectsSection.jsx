@@ -4,6 +4,24 @@ import { ArrowRight, ExternalLink, Github } from "lucide-react";
 const projects = [
   {
     id: 1,
+    title: "Sinhala Tokenizer Training Framework",
+    description: "Open-sourced a fully documented Sinhala tokenizer training pipeline using SentencePiece, with automated config search, evaluation, and beginner-friendly code structure.",
+    image: "/projects/tokenizer.jpeg",
+    tags: ["Python", "SentencePiece", "Optuna"],
+    // *demoUrl: "#",
+    githubUrl: "https://github.com/Thisen-Ekanayake/Sinhala-Tokenizer-Training.git",
+  },
+  {
+    id: 2,
+    title: "Micromouse Maze-Solving Robot",
+    description: "Built and programmed an autonomous Micromouse robot using PlatformIO and C/C++, with ToF sensors, PID motor control, and real-time maze-solving logic.",
+    image: "/projects/micro-mouse.jpeg",
+    tags: ["C/C++", "PlatformIO", "Embedded Systems"],
+    // *demoUrl: "#",
+    githubUrl: "https://github.com/Thisen-Ekanayake/Micro-Mouse.git",
+  },
+  {
+    id: 3,
     title: "Sinhala PDF OCR Tool with GUI",
     description: "Developed and open-sourced a multithreaded Sinhala OCR tool with GUI for batch PDF processing, packaged as a portable Windows app.",
     image: "/projects/ocr.jpeg",
@@ -12,17 +30,17 @@ const projects = [
     githubUrl: "https://github.com/Thisen-Ekanayake/Sinhala-OCR-Tool.git",
   },
   {
-    id: 2,
-    title: " Logistic Regression on Iris Dataset",
+    id: 8,
+    title: "Autonomous UAV-UGV Docking & Charging System",
     description:
-      "Built and optimized a logistic regression model with GridSearchCV, evaluated performance, explained predictions, and saved the model using Joblib.",
-    image: "/projects/iris.jpeg",
-    tags: ["Python", "Scikit-Learn"],
+      "Developing an ML-powered UAV system for autonomous UGV tracking, precision landing, and mid-mission charging using camera, LiDAR, and multi-sensor fusion.",
+    image: "/projects/uav.jpeg",
+    tags: ["Python", "Raspberry Pi"],
     // demoUrl: "#",
-    githubUrl: "https://github.com/Thisen-Ekanayake/iris-logistic-regression.git",
+    githubUrl: "https://github.com/Thisen-Ekanayake/FlightWorks.git",
   },
   {
-    id: 3,
+    id: 5,
     title: "4-bit Nanoprocessor",
     description:
       "Co-designed and implemented a 4-bit VHDL processor with custom components, tested via assembly ROM and hardware simulations.",
@@ -32,17 +50,7 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 4,
-    title: "Object Detection System",
-    description:
-      "Implemented real-time object detection using SSD MobileNet V3 with OpenCV DNN, supporting video/webcam input and COCO-based classification.",
-    image: "/projects/object-detection.jpeg",
-    tags: ["Python", "OpenCV"],
-    // demoUrl: "#",
-    githubUrl: "https://github.com/Thisen-Ekanayake/Object-Tracking.git",
-  },
-  {
-    id: 5,
+    id: 7,
     title: "Local LLM Chatbot",
     description:
       "Deployed a quantized Mistral 7B model locally with custom GPTQ support, enabling efficient prompt-based inference and chatbot experimentation.",
@@ -52,14 +60,24 @@ const projects = [
     githubUrl: "#",
   },
   {
-    id: 6,
-    title: "Autonomous UAV-UGV Docking & Charging System",
+    id: 4,
+    title: " Logistic Regression on Iris Dataset",
     description:
-      "Developing an ML-powered UAV system for autonomous UGV tracking, precision landing, and mid-mission charging using camera, LiDAR, and multi-sensor fusion.",
-    image: "/projects/uav.jpeg",
-    tags: ["Python", "Raspberry Pi"],
+      "Built and optimized a logistic regression model with GridSearchCV, evaluated performance, explained predictions, and saved the model using Joblib.",
+    image: "/projects/iris.jpeg",
+    tags: ["Python", "Scikit-Learn"],
     // demoUrl: "#",
-    githubUrl: "https://github.com/Thisen-Ekanayake/FlightWorks.git",
+    githubUrl: "https://github.com/Thisen-Ekanayake/iris-logistic-regression.git",
+  },
+  {
+    id: 6,
+    title: "Object Detection System",
+    description:
+      "Implemented real-time object detection using SSD MobileNet V3 with OpenCV DNN, supporting video/webcam input and COCO-based classification.",
+    image: "/projects/object-detection.jpeg",
+    tags: ["Python", "OpenCV"],
+    // demoUrl: "#",
+    githubUrl: "https://github.com/Thisen-Ekanayake/Object-Tracking.git",
   },
 ];
 
