@@ -241,13 +241,13 @@ export const ContactSection = () => {
               <a href="https://www.linkedin.com/in/thisen-ekanayake" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
                 <Linkedin className="hover:text-primary transition-colors" />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+              <a href="https://x.com/EkanayakeThisen?t=LEMhcrEsIaHhSgAVRuOsrg&s=09" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
                 <Twitter className="hover:text-primary transition-colors" />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+              <a href="https://www.instagram.com/_.th1se.n._?igsh=b2IwazRzczljNHJs" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
                 <Instagram className="hover:text-primary transition-colors" />
               </a>
-              <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+              <a href="https://www.facebook.com/share/1F5kd4HvPh/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
                 <Facebook className="hover:text-primary transition-colors" />
               </a>
             </div>
