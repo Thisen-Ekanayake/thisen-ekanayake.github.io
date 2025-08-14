@@ -71,15 +71,17 @@ export const BlogPage = () => {
                     </div>
                     <h3 className="text-xl font-semibold mb-2">{article.title}</h3>
                     <p className="text-muted-foreground text-sm mb-4">{article.excerpt}</p>
-                    <a
-                      href={article.url}
+                    
+                    <Link
+                      to={article.url}
                       className="text-primary font-medium hover:underline flex items-center gap-1"
                     >
                       Read Article
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                       </svg>
-                    </a>
+                    </Link>
+
 
                   </div>
                 </div>
